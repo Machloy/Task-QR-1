@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #d6e2f0;
+  height: 100vh;
+}
+
+.wrapper, .attribution {
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.wrapper {
+  position: relative;
+  top: 50%;
+  width: 320px;
+  height: 500px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.qr {
+  position: absolute;
+  background-image: url(../images/image-qr-code.png);
+  top: 0%;
+  left: 50%;
+  margin: 20px 0;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+  height: 285px;
+  width: 285px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.first-txt, .second-txt, .attribution {
+  position: absolute;
+  text-align: center;
+}
+
+.first-txt {
+  font-size: 20px;
+  margin: 0 20px;
+  font-weight: bold;
+  bottom: 23%;
+  color: #1f3251;
+}
+
+.second-txt {
+  font-size: 14px;
+  margin: 0 30px;
+  bottom: 8%;
+  color: #7b879d;
+}
+
+.attribution {
+  bottom: 0%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 10px;
+  width: 100%;
+}
+/*# sourceMappingURL=main.css.map */
